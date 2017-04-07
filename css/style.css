@@ -74,3 +74,25 @@ text-align: center;
 .button-menu-y img{
   /*margin-left: 0;*/
 }
+/*style comment*/
+.haut{
+  height: 70px;
+  margin-left: 10px;
+}
+.lien{
+  display: flex;
+}
+.lien1{
+  float: left;
+  margin-left: 10px;
+}
+.comment img{
+  height: 30px;
+  width: 30px;
+  border-radius: 100%
+}
+.comment{
+  margin-left: 15px;
+}
+#commentaire{width: 200px; height: 70px}
+.email{margin-left:10px;color:grey}
