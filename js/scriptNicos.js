@@ -12,9 +12,7 @@ function ecrireCommentaire(pseudo, commentaire, $cible) {
 }
 
 $(function () {
-
     //MOVEUP
-
     $('.move-up').click(function (e) {
         let $div = $(this).closest('div');
         // si deja premier
@@ -26,7 +24,6 @@ $(function () {
         }
     });
     //MoveDown
-
     $('.move-down').click(function (e) {
         let $div = $(this).closest('div');
         // si deja dernier siblings('div') = element frère du même type et comparaison de l index
@@ -40,7 +37,6 @@ $(function () {
     /************
      *Ajout commentaire
      **/
-
     $(".submitCommentaire").submit(function (event) {
 
         //stop submit
